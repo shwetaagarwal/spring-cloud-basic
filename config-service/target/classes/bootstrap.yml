@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///S:/spring/springboot/config
+          #uri: https://github.com/joshlong/bootiful-microservices-config.git
+#spring.cloud.config.server.git.uri=https://github.com/joshlong/bootiful-microservices-config.git
+server:
+  port: 8888
